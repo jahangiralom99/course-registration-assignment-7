@@ -3,7 +3,7 @@
     "id": 1,
     "cover": "https://i.ibb.co/GHrc0Nn/Rectangle-2-2.png",
     "title": "Introduction to C Programming",
-    "posts": "C is used in a wide range of applications, including operating systems, embedded systems, and application development. Understanding C programming involves learning about variables,",
+    "posts": "C is used in a wide range of applications, including operating systems, embedded systems, and application development. Understanding C programming.",
     "price": 1500,
     "credit": 5
   },
@@ -17,9 +17,9 @@
   },
   {
     "id": 3,
-    "cover": "https://i.ibb.co/QdkD49Q/Rectangle-2-3.png",
+    "cover": "https://i.ibb.co/GHrc0Nn/Rectangle-2-2.png",
     "title": "Introduction to C++ for DSA",
-    "posts": "C++ is a powerful programming language for Data Structures and Algorithms (DSA). It offers a concise syntax, a robust Standard Template Library (STL) for common data structures.",
+    "posts": "C++ is a powerful programming language for Data Structures and Algorithms (DSA). It offers a concise syntax, a robust Standard Template Library (STL) for common data structures.C++ is a powerful",
     "price": 10000,
     "credit": 10
   },

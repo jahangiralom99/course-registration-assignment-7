@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 
 import { useState } from 'react'
 import './App.css'
@@ -35,7 +36,10 @@ function App() {
       setCourseNames([...courseNames, course])
     }
     else {
-      return alert("AllReady Exist this Name")
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops... This Items All Ready Exists',
+      })
     }
     {
       courseNames.forEach(item => {
@@ -48,11 +52,17 @@ function App() {
           setRemainingTime(creditRem)
         }
         else {
-          return alert("Credit")
+          return Swal.fire({
+            icon: 'error',
+            title: 'Oops...Your Credit Hour Reaming to Low',
+          })
         }
       }
       else {
-        return alert("Please enter")
+        return Swal.fire({
+          icon: 'error',
+          title: 'Oops...Your Credit Hour limited FUll',
+        })
       }
    }
     setPrice(sumPrice)

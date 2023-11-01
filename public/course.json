@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/GHrc0Nn/Rectangle-2-2.png",
+    "title": "Introduction to C Programming",
+    "posts": "C is used in a wide range of applications, including operating systems, embedded systems, and application development. Understanding C programming involves learning about variables,",
+    "price": 1500,
+    "credit": 5
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/QdkD49Q/Rectangle-2-3.png",
+    "title": "Introduction to Algorithms",
+    "posts": "Algorithms are step-by-step procedures for solving problems, making decisions, or performing tasks. They are fundamental to computer science and play a crucial role in various fields.",
+    "price": 2500,
+    "credit": 3
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/QdkD49Q/Rectangle-2-3.png",
+    "title": "Introduction to C++ for DSA",
+    "posts": "C++ is a powerful programming language for Data Structures and Algorithms (DSA). It offers a concise syntax, a robust Standard Template Library (STL) for common data structures.",
+    "price": 10000,
+    "credit": 10
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/8YP1dNM/Rectangle-3.png",
+    "title": "Basic Data Structures",
+    "posts": "Basic data structures are the fundamental ways of organizing and storing data in a computer. They are essential for creating efficient and optimized algorithms and programs. There are different types of data structures. ",
+    "price": 35000,
+    "credit": 5
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/hfqSq5K/Rectangle-2.png",
+    "title": "Introduction to OOP Python",
+    "posts": "Object-oriented programming (OOP) is a way of designing and writing programs by using objects and classes. Objects are entities that have attributes (data) and behaviors (methods). Classes are blueprints for creating objects.",
+    "price": 19000,
+    "credit": 5
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co/JHZZTnL/Rectangle-2-5.png",
+    "title": "Software Engineering",
+    "posts": "Software engineering is a branch of computer science that uses engineering principles to develop computer programs and operating systems. A software engineer is a person who applies the engineering design process to design.",
+    "price": 23000,
+    "credit": 2
+  },
+  {
+    "id": 7,
+    "cover": "https://i.ibb.co/rpPFyWH/Rectangle-3-1.png",
+    "title": "AWS, Cloud Computing",
+    "posts": "AWS stands for Amazon Web Services, which is the world’s most comprehensive and broadly adopted cloud platform. Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing.",
+    "price": 35000,
+    "credit": 5
+  },
+  {
+    "id": 8,
+    "cover": "https://i.ibb.co/sbQbB67/Rectangle-2-1.png",
+    "title": "Database (MySQL) ",
+    "posts": "A database is a collection of data that is organized and stored in a way that allows easy access, manipulation, and analysis. MySQL is one of the most popular database management systems that uses the relational model to store data in tables.",
+    "price": 19000,
+    "credit": 6
+  },
+  {
+    "id": 9,
+    "cover": "https://i.ibb.co/z6D3nKr/Rectangle-2-6.png",
+    "title": "Problem-Solving Part",
+    "posts": "Problem-solving is a skill that involves finding solutions to various kinds of challenges or issues. It is often used in different domains, such as education, work, and everyday life. Problem-solving can be divided into different parts or stages.",
+    "price": 23000,
+    "credit": 2
+  }
+]

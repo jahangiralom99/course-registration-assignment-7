@@ -5,6 +5,7 @@ import Courses from './components/Courses/Courses'
 import CoursesName from './components/CoursesName/CoursesName'
 import { useEffect } from 'react';
 
+
 function App() {
 
   const [allCourses, setAllCourses] = useState([]);
@@ -36,27 +37,24 @@ function App() {
     else {
       return alert("AllReady Exist this Name")
     }
-    courseNames.forEach(item => {
-      sumCredit =sumCredit + item.credit
-    })
-    if (credit < 20) {
-      const creditRem =20 - sumCredit;
-      setCredit(sumCredit)
-      if (creditRem > 0) {
-        setRemainingTime(creditRem)
+    {
+      courseNames.forEach(item => {
+        sumCredit = sumCredit + item.credit
+      })
+      if (sumCredit <= 20) {
+        setCredit(sumCredit)
+        const creditRem =20 - sumCredit;
+        if (creditRem > 0) {
+          setRemainingTime(creditRem)
+        }
+        else {
+          return alert("Credit")
+        }
       }
       else {
-        alert("Credit")
+        return alert("Please enter")
       }
-    }
-    else {
-      return alert("Please enter")
-    }
-    
-    // if (creditRem > 0 && creditRem > 20) {
-      
-    // }
-   
+   }
     setPrice(sumPrice)
   }
 

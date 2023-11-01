@@ -15,12 +15,15 @@ function App() {
   },[])
 
 
+  const handleSelectBtn = (course) => {
+    console.log("dffdfdfd");
+  }
 
   return (
     <div className='bg-[#F3F3F3]'>
       <h1 className='text-4xl font-bold text-center'>Course Registration</h1>
       <div className='md:flex mt-12 container mx-auto'>
-        <Courses allCourses={allCourses}></Courses>
+        <Courses allCourses={allCourses} handleSelectBtn={handleSelectBtn}></Courses>
         <CoursesName></CoursesName>
       </div>
     </div>

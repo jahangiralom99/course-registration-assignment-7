@@ -35,7 +35,7 @@
     "id": 5,
     "cover": "https://i.ibb.co/hfqSq5K/Rectangle-2.png",
     "title": "Introduction to OOP Python",
-    "posts": "Object-oriented programming (OOP) is a way of designing and writing programs by using objects and classes. Objects are entities that have attributes (data) and behaviors (methods). Classes are blueprints for creating objects.",
+    "posts": "Object-oriented programming (OOP) is a way of designing and writing programs by using objects and classes. Objects are entities that have attributes (data) and behaviors (methods).",
     "price": 19000,
     "credit": 5
   },

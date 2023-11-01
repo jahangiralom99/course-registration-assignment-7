@@ -1,7 +1,7 @@
 
 const CoursesName = () => {
     return (
-        <div className="md:w-[30%]">
+        <div className="">
             <h1>Course Name</h1>
         </div>
     );

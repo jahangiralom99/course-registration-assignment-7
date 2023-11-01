@@ -16,9 +16,11 @@ const CoursesName = ({ courseNames ,price, credit, remainingTime}) => {
             {count++} {name.title}
           </p>
         ))}
-      </div>
+          </div>
+          <hr className="border-2 mt-4" />
       <div className="space-y-4 mt-4">
-        <p className="font-bold">Total Credit Hour : {credit} </p>
+              <p className="font-bold">Total Credit Hour : {credit} </p>
+              <hr />
         <h6 className="font-bold">Total Price : {price} USD</h6>
       </div>
     </div>
